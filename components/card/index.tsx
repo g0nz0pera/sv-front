@@ -7,11 +7,12 @@ import {
 } from "./styles";
 import { ICard } from "@/interfaces/card";
 
-export const Card: FC<ICard> = ({ title, description, styles }) => {
+export const Card: FC<ICard> = ({ id, title, description, styles }) => {
   const titleStyles = title.styles;
   const descriptionStyles = description?.styles;
   return (
     <CardContentStyled
+      data-testid={`card-${id}`}
       background={styles?.background}
       width={styles?.width}
       height={styles?.height}

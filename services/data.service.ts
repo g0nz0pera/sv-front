@@ -107,7 +107,7 @@ const getStubData = (): ICard[] => {
 
 const getProjectStubData = (): ICard => {
   return {
-    id: 1,
+    id: "project-card",
     title: {
       text: "Below are some of the key technologies we use in our projects:",
       styles: {
