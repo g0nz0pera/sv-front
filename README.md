@@ -55,3 +55,4 @@ docker run -p 3000:3000 sv-front
 - Improve spacing and alignment in the card component
 - Migrate test from Javascript to Typescript.
   - Couldn't config Typescript with Jest and React Testing Library
+- Improve Docker file to run the project in production mode
