@@ -11,6 +11,7 @@ export const CardContentStyled = styled.div<CardStyle>`
   width: ${({ width }) => width};
   height: ${({ height }) => height};
   padding: ${({ padding }) => padding};
+  margin: ${({ margin }) => margin};
   background: no-repeat center / contain url(${({ background }) => background})
     transparent;
 `;
@@ -24,6 +25,7 @@ export const CardTitleStyled = styled.h2<CardStyle>`
   font-family: var(${`--font-syne`});
   color: ${({ color }) => color};
   padding: ${({ padding }) => padding};
+  margin: ${({ margin }) => margin};
   width: ${({ width }) => width};
   height: ${({ height }) => height};
 `;
@@ -39,4 +41,5 @@ export const CardDescriptionStyled = styled.p<CardStyle>`
   height: ${({ height }) => height};
   padding: ${({ padding }) => padding};
   color: ${({ color }) => color};
+  margin: ${({ margin }) => margin};
 `;

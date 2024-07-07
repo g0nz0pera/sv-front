@@ -26,6 +26,7 @@ export interface CardStyle {
   width?: string;
   height?: string;
   padding?: string;
+  margin?: string;
   color?: string;
   fontSize?: string;
   lineHeight?: string;

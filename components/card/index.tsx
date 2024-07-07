@@ -16,7 +16,6 @@ export const Card: FC<ICard> = ({ id, title, description, styles }) => {
       background={styles?.background}
       width={styles?.width}
       height={styles?.height}
-      padding={styles?.padding}
     >
       <CardTitleStyled {...titleStyles}>{title.text}</CardTitleStyled>
       <CardDescriptionStyled {...descriptionStyles}>
